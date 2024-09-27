@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Stílusú Profil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="profile-name" id="profile-name">
+                ROFFi Civilek közössége
+            </div>
+            <nav class="navbar">
+                <button class="nav-button">Főoldal</button>
+                <button class="nav-button">Profil</button>
+                <button class="nav-button">Kapcsolat</button>
+            </nav>
+        </div>
+    </header>
+    <div class="profile-container">
+        <!-- Borítókép -->
+        <div class="cover-photo">
+            <img src="cover.jpg" alt="Borítókép">
+        </div>
+        
+        <!-- Profilkép és név -->
+        <div class="profile-info">
+            <div class="profile-photo">
+                <img src="rock.jpg" alt="Profilkép">
+            </div>
+            <!-- <div class="profile-name" id="profile-name">
+                
+            </div> -->
+            
+        </div>
+
+        <!-- Navigációs sáv (pl. Posztok, Információ) -->
+        <div class="nav-bar">
+            <a href="#posts">Posztok</a>
+            <a href="#about">Információ</a>
+        </div>
+
+        <!-- Információ szekció -->
+        <div id="about" class="about-section">
+            <h2>Információ</h2>
+            <p>Hely: Budapest, Magyarország</p>
+            <p>Munkahely: XYZ Cég</p>
+            <p>Oktatás: ABC Egyetem</p>
+        </div>
+
+        <!-- Posztok szekció -->
+        <div id="posts" class="posts-section">
+            <h2>Posztok</h2>
+            
+            <!-- Egyes poszt -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="profile.jpg" alt="Profilkép" class="post-profile-pic">
+                    <div class="post-info">
+                        <h3>Felhasználó Neve</h3>
+                        <p>2 órája</p>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Ez az első posztom a weboldalon!</p>
+                </div>
+                <div class="post-interactions">
+                    <button>Lájk</button>
+                    <button>Komment</button>
+                    <button>Megosztás</button>
+                </div>
+            </div>
+
+            <!-- Második poszt -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="profile.jpg" alt="Profilkép" class="post-profile-pic">
+                    <div class="post-info">
+                        <h3>Felhasználó Neve</h3>
+                        <p>1 napja</p>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <p>Ez egy másik poszt tartalma...</p>
+                </div>
+                <div class="post-interactions">
+                    <button>Lájk</button>
+                    <button>Komment</button>
+                    <button>Megosztás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://www.facebook.com/roffi.civilek.kozossege" target="_blank" class="footer-link">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCQDiOHL7o27cjyGgM089hSw" target="_blank" class="footer-link">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </footer>  
+</body>
+</html>
